@@ -1,0 +1,15 @@
+GRAPHICS 
+SPRITE PROPERTIES
+Width: 64
+Height: 37
+PLAYER PROPERTIES
+Width: 64
+Height: 74
+Head: 18
+Feet: 18/3 = 6
+
+TO DO:
+1. Player movement like in crimsonland
+2. Proper player diplay behind and over sprites
+3. Collision with object
+4. FPS Counter 

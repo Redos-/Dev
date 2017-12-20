@@ -1,16 +1,16 @@
 [gd_scene load_steps=12 format=1]
 
-[ext_resource path="res://earth.png" type="Texture" id=1]
-[ext_resource path="res://grass.png" type="Texture" id=2]
-[ext_resource path="res://earth-grass.png" type="Texture" id=3]
-[ext_resource path="res://earth-stone.png" type="Texture" id=4]
-[ext_resource path="res://bush.png" type="Texture" id=5]
-[ext_resource path="res://bush1.png" type="Texture" id=6]
-[ext_resource path="res://earth-water.png" type="Texture" id=7]
-[ext_resource path="res://stone.png" type="Texture" id=8]
-[ext_resource path="res://water.png" type="Texture" id=9]
-[ext_resource path="res://wall-window.png" type="Texture" id=10]
-[ext_resource path="res://wall.png" type="Texture" id=11]
+[ext_resource path="res://sprites/env/earth.png" type="Texture" id=1]
+[ext_resource path="res://sprites/env/grass.png" type="Texture" id=2]
+[ext_resource path="res://sprites/env/earth-grass.png" type="Texture" id=3]
+[ext_resource path="res://sprites/env/earth-stone.png" type="Texture" id=4]
+[ext_resource path="res://sprites/env/bush.png" type="Texture" id=5]
+[ext_resource path="res://sprites/env/bush1.png" type="Texture" id=6]
+[ext_resource path="res://sprites/env/earth-water.png" type="Texture" id=7]
+[ext_resource path="res://sprites/env/stone.png" type="Texture" id=8]
+[ext_resource path="res://sprites/env/water.png" type="Texture" id=9]
+[ext_resource path="res://sprites/env/wall-window.png" type="Texture" id=10]
+[ext_resource path="res://sprites/env/wall.png" type="Texture" id=11]
 
 [node name="Node" type="Node"]
 
@@ -38,6 +38,7 @@ texture = ExtResource( 4 )
 
 transform/pos = Vector2( 32, 111 )
 texture = ExtResource( 5 )
+offset = Vector2( 0, -13 )
 
 [node name="bush1" type="Sprite" parent="."]
 
@@ -64,10 +65,12 @@ texture = ExtResource( 9 )
 
 transform/pos = Vector2( 32, 185 )
 texture = ExtResource( 10 )
+offset = Vector2( 0, -44 )
 
 [node name="wall" type="Sprite" parent="."]
 
 transform/pos = Vector2( 96, 185 )
 texture = ExtResource( 11 )
+offset = Vector2( 0, -44 )
 
 
