@@ -13,3 +13,6 @@ TO DO:
 2. Proper player diplay behind and over sprites
 3. Collision with object
 4. FPS Counter 
+(+) 5. "Weird" picture blinking - Fixed by zooming to 0.25, looks like its somehow because of image sizes
+6. Occasional "jittering" during camera movement
+7. Occasional "stuttering" of specific tiles during camera movement
